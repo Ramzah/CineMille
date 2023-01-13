@@ -1,10 +1,13 @@
 package com.cinemille.gestione.model;
 
 import java.io.Serializable;
+import java.util.Date;
 
 import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
+@Entity
 public class Programmazione implements Serializable {
 
 	private static final long serialVersionUID = 1L;
@@ -16,7 +19,7 @@ public class Programmazione implements Serializable {
 	@Column(name = "id_film")
 	private String idFilm;
 	@Column(name = "data_orario")
-	private String dataOrario;
+	private Date dataOrario;
 
 	public Programmazione() {
 	}
@@ -33,7 +36,7 @@ public class Programmazione implements Serializable {
 		return idFilm;
 	}
 
-	public String getDataOrario() {
+	public Date getDataOrario() {
 		return dataOrario;
 	}
 	
