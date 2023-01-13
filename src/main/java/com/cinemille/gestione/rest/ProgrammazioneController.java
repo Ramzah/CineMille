@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.cinemille.gestione.dto.ProgrammazioneDto;
@@ -22,6 +23,11 @@ public class ProgrammazioneController {
 	@GetMapping("/storico")
 	public List<ProgrammazioneDto> getStorico() {
 		return (List<ProgrammazioneDto>) programmazioneService.storicoProgrammazione();
+	}
+	
+	@GetMapping("/lista")
+	public List<ProgrammazioneDto> findByDate(@RequestParam String dataInizio, @RequestParam String dataFine) {
+		return programmazioneService.findByDate(dataInizio, dataFine);
 	}
 
 }
