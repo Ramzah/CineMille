@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_F8QDAJUfEe2jN8JM-i98Gw">
+  <modelElement href="CineMille.uml#_GLVn4pUfEe2jN8JM-i98Gw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_K62rAJUfEe2jN8JM-i98Gw" sourceAnchor="0.0,42.0" targetAnchor="465.0,45.0" target="_K71icJUfEe2jN8JM-i98Gw" source="_K68KkJUfEe2jN8JM-i98Gw">
+    <modelElement href="CineMille.uml#_GPSTwJUfEe2jN8JM-i98Gw"/>
+    <stereotypes xmi:id="_K62rAZUfEe2jN8JM-i98Gw" name="Reference">
+      <modelElement href="CineMille.uml#_GPUwAJUfEe2jN8JM-i98Gw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_K62rApUfEe2jN8JM-i98Gw" text="">
+      <visualProperties xmi:id="_LEOCYJUfEe2jN8JM-i98Gw" position="-13.0,2.0" visible="false"/>
+    </nameVisual>
+    <sourceRole xmi:id="_K62rA5UfEe2jN8JM-i98Gw" aggregationKind="NONE" name="">
+      <modelElement href="CineMille.uml#_GPSTwZUfEe2jN8JM-i98Gw"/>
+      <visualProperties xmi:id="_LENbUJUfEe2jN8JM-i98Gw" position="-43.0,-63.0" visible="false"/>
+      <visibility xmi:id="_K62rBJUfEe2jN8JM-i98Gw" label="+"/>
+      <cardinality xmi:id="_K62rBZUfEe2jN8JM-i98Gw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_K62rBpUfEe2jN8JM-i98Gw" aggregationKind="NONE" name="programmazioneService" navigable="true">
+      <modelElement href="CineMille.uml#_GPHUoJUfEe2jN8JM-i98Gw"/>
+      <visualProperties xmi:id="_LEOCYZUfEe2jN8JM-i98Gw" position="-34.5,56.0" visible="false"/>
+      <stereotypes xmi:id="_fO-rgJUfEe2jN8JM-i98Gw" name="Annotations"/>
+      <stereotypes xmi:id="_fO_SkJUfEe2jN8JM-i98Gw" name="Annotations"/>
+      <visibility xmi:id="_K62rB5UfEe2jN8JM-i98Gw" label="-"/>
+      <cardinality xmi:id="_K62rCJUfEe2jN8JM-i98Gw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_K7dH8JUfEe2jN8JM-i98Gw" sourceAnchor="0.0,44.0" targetAnchor="405.0,53.0" target="_K7oHF5UfEe2jN8JM-i98Gw" source="_K71icJUfEe2jN8JM-i98Gw">
+    <modelElement href="CineMille.uml#_GPVXEJUfEe2jN8JM-i98Gw"/>
+    <stereotypes xmi:id="_K7oHEZUfEe2jN8JM-i98Gw" name="Reference">
+      <modelElement href="CineMille.uml#_GPXMQJUfEe2jN8JM-i98Gw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_K7ngAJUfEe2jN8JM-i98Gw" text="">
+      <visualProperties xmi:id="_LEPQgJUfEe2jN8JM-i98Gw" position="-22.0,-19.000000000000014" visible="false"/>
+    </nameVisual>
+    <sourceRole xmi:id="_K7ngAZUfEe2jN8JM-i98Gw" aggregationKind="NONE" name="">
+      <modelElement href="CineMille.uml#_GPVXEZUfEe2jN8JM-i98Gw"/>
+      <visualProperties xmi:id="_LEOpcJUfEe2jN8JM-i98Gw" position="-27.0,2.0" visible="false"/>
+      <visibility xmi:id="_K7oHE5UfEe2jN8JM-i98Gw" label="+"/>
+      <cardinality xmi:id="_K7oHEpUfEe2jN8JM-i98Gw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_K7oHEJUfEe2jN8JM-i98Gw" aggregationKind="NONE" name="programmazioneRepo" navigable="true">
+      <modelElement href="CineMille.uml#_GPNbQpUfEe2jN8JM-i98Gw"/>
+      <visualProperties xmi:id="_LEPQgZUfEe2jN8JM-i98Gw" position="-37.0,82.0" visible="false"/>
+      <stereotypes xmi:id="_K7oHFpUfEe2jN8JM-i98Gw" name="Annotations">
+        <modelElement href="CineMille.uml#_GPNbQ5UfEe2jN8JM-i98Gw"/>
+      </stereotypes>
+      <visibility xmi:id="_K7oHFZUfEe2jN8JM-i98Gw" label="-"/>
+      <cardinality xmi:id="_K7oHFJUfEe2jN8JM-i98Gw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:UsageVisual" xmi:id="_ay8voJUgEe2jN8JM-i98Gw" sourceAnchor="236.0,90.0" targetAnchor="303.0,0.0" client="_K71icJUfEe2jN8JM-i98Gw" supplier="_K7IX0JUfEe2jN8JM-i98Gw">
+    <modelElement href="CineMille.uml#_ay7hgJUgEe2jN8JM-i98Gw"/>
+    <visualProperties xmi:id="_ay8voZUgEe2jN8JM-i98Gw"/>
+    <bendpoints xmi:id="_dSNnYJUgEe2jN8JM-i98Gw" sourceY="33" targetX="-288" targetY="-74"/>
+    <bendpoints xmi:id="_dSNnYZUgEe2jN8JM-i98Gw" sourceX="288" sourceY="33" targetY="-74"/>
+    <nameVisual xmi:id="_ay8vopUgEe2jN8JM-i98Gw" text=""/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:UsageVisual" xmi:id="_cp6RQJUgEe2jN8JM-i98Gw" sourceAnchor="243.0,90.0" targetAnchor="303.0,0.0" client="_K68KkJUfEe2jN8JM-i98Gw" supplier="_K7IX0JUfEe2jN8JM-i98Gw">
+    <modelElement href="CineMille.uml#_cp5qMJUgEe2jN8JM-i98Gw"/>
+    <visualProperties xmi:id="_cp64UJUgEe2jN8JM-i98Gw"/>
+    <bendpoints xmi:id="_dSNnYpUgEe2jN8JM-i98Gw" sourceY="30" targetX="256" targetY="-74"/>
+    <bendpoints xmi:id="_dSNnY5UgEe2jN8JM-i98Gw" sourceX="-256" sourceY="30" targetY="-74"/>
+    <nameVisual xmi:id="_cp64UZUgEe2jN8JM-i98Gw" text=""/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_K6oBgJUfEe2jN8JM-i98Gw" name="CineMilleApplication">
+    <modelElement href="CineMille.uml#_GMFOwJUfEe2jN8JM-i98Gw"/>
+    <visualProperties xmi:id="_K6oBgZUfEe2jN8JM-i98Gw" position="41.0,546.0" size="-1.0,-1.0" visible="false"/>
+    <stereotypes xmi:id="_K6oBgpUfEe2jN8JM-i98Gw" name="LegacyStyledElement">
+      <modelElement href="CineMille.uml#_GMGc4JUfEe2jN8JM-i98Gw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_K6oBg5UfEe2jN8JM-i98Gw" name="Annotations">
+      <modelElement href="CineMille.uml#_GMHrAJUfEe2jN8JM-i98Gw"/>
+    </stereotypes>
+    <visibility xmi:id="_K6oBhJUfEe2jN8JM-i98Gw" label="+"/>
+    <operations xmi:id="_K6oBhZUfEe2jN8JM-i98Gw" name="main" staticOperation="true">
+      <modelElement href="CineMille.uml#_GMGc4ZUfEe2jN8JM-i98Gw"/>
+      <stereotypes xmi:id="_K6oBhpUfEe2jN8JM-i98Gw" name="StyledElement">
+        <modelElement href="CineMille.uml#_GMHD8JUfEe2jN8JM-i98Gw"/>
+      </stereotypes>
+      <visibility xmi:id="_K6oBh5UfEe2jN8JM-i98Gw" label="+"/>
+      <cardinality xmi:id="_K6oBiJUfEe2jN8JM-i98Gw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_K6oBiZUfEe2jN8JM-i98Gw" name="args">
+        <modelElement href="CineMille.uml#_GMGc4pUfEe2jN8JM-i98Gw"/>
+        <cardinality xmi:id="_K6oBipUfEe2jN8JM-i98Gw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_K6oBi5UfEe2jN8JM-i98Gw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_K68KkJUfEe2jN8JM-i98Gw" using="_cp6RQJUgEe2jN8JM-i98Gw" name="ProgrammazioneController" associationsOut="_K62rAJUfEe2jN8JM-i98Gw">
+    <modelElement href="CineMille.uml#_GLpw8JUfEe2jN8JM-i98Gw"/>
+    <visualProperties xmi:id="_K68KkZUfEe2jN8JM-i98Gw" position="1010.0,43.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_K68KkpUfEe2jN8JM-i98Gw" name="LegacyStyledElement">
+      <modelElement href="CineMille.uml#_GLq_EJUfEe2jN8JM-i98Gw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_K68Kk5UfEe2jN8JM-i98Gw" name="Annotations">
+      <modelElement href="CineMille.uml#_GLuCYJUfEe2jN8JM-i98Gw"/>
+    </stereotypes>
+    <visibility xmi:id="_K68KlJUfEe2jN8JM-i98Gw" label="+"/>
+    <attributes xmi:id="_K68KlZUfEe2jN8JM-i98Gw" name="programmazioneService">
+      <modelElement href="CineMille.uml#_GPHUoJUfEe2jN8JM-i98Gw"/>
+      <stereotypes xmi:id="_K68KlpUfEe2jN8JM-i98Gw" name="Annotations">
+        <modelElement href="CineMille.uml#_GPHUoZUfEe2jN8JM-i98Gw"/>
+      </stereotypes>
+      <visibility xmi:id="_K68Kl5UfEe2jN8JM-i98Gw" label="-"/>
+      <cardinality xmi:id="_K68KmJUfEe2jN8JM-i98Gw" label="1" max="1" min="1"/>
+      <type xmi:id="_K68KmZUfEe2jN8JM-i98Gw" name="ProgrammazioneService">
+        <modelElement href="CineMille.uml#_GMBkYJUfEe2jN8JM-i98Gw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_K68KmpUfEe2jN8JM-i98Gw" name="getStorico">
+      <modelElement href="CineMille.uml#_GLrmJJUfEe2jN8JM-i98Gw"/>
+      <stereotypes xmi:id="_K68Km5UfEe2jN8JM-i98Gw" name="Annotations">
+        <modelElement href="CineMille.uml#_GLsNMJUfEe2jN8JM-i98Gw"/>
+      </stereotypes>
+      <visibility xmi:id="_K68KnJUfEe2jN8JM-i98Gw" label="+"/>
+      <cardinality xmi:id="_K68KnZUfEe2jN8JM-i98Gw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_K68KnpUfEe2jN8JM-i98Gw">
+        <modelElement href="CineMille.uml#_GLrmJZUfEe2jN8JM-i98Gw"/>
+        <type xmi:id="_K68Kn5UfEe2jN8JM-i98Gw" name="ProgrammazioneDto">
+          <modelElement href="CineMille.uml#_GL_vMJUfEe2jN8JM-i98Gw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_K68KoJUfEe2jN8JM-i98Gw" name="findByDate">
+      <modelElement href="CineMille.uml#_GLs0QJUfEe2jN8JM-i98Gw"/>
+      <stereotypes xmi:id="_K68KoZUfEe2jN8JM-i98Gw" name="Annotations">
+        <modelElement href="CineMille.uml#_GLtbVJUfEe2jN8JM-i98Gw"/>
+      </stereotypes>
+      <visibility xmi:id="_K68KopUfEe2jN8JM-i98Gw" label="+"/>
+      <cardinality xmi:id="_K68Ko5UfEe2jN8JM-i98Gw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_K68KpJUfEe2jN8JM-i98Gw">
+        <modelElement href="CineMille.uml#_GLs0Q5UfEe2jN8JM-i98Gw"/>
+        <type xmi:id="_K68KpZUfEe2jN8JM-i98Gw" name="ProgrammazioneDto">
+          <modelElement href="CineMille.uml#_GL_vMJUfEe2jN8JM-i98Gw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_K68KppUfEe2jN8JM-i98Gw" name="dataInizio">
+        <modelElement href="CineMille.uml#_GLs0QZUfEe2jN8JM-i98Gw"/>
+        <cardinality xmi:id="_K68Kp5UfEe2jN8JM-i98Gw" label="1" max="1" min="1"/>
+        <type xmi:id="_K68KqJUfEe2jN8JM-i98Gw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_K68KqZUfEe2jN8JM-i98Gw" name="dataFine">
+        <modelElement href="CineMille.uml#_GLs0QpUfEe2jN8JM-i98Gw"/>
+        <cardinality xmi:id="_K68KqpUfEe2jN8JM-i98Gw" label="1" max="1" min="1"/>
+        <type xmi:id="_K68Kq5UfEe2jN8JM-i98Gw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_K7IX0JUfEe2jN8JM-i98Gw" supplying="_ay8voJUgEe2jN8JM-i98Gw _cp6RQJUgEe2jN8JM-i98Gw" name="ProgrammazioneDto">
+    <modelElement href="CineMille.uml#_GL_vMJUfEe2jN8JM-i98Gw"/>
+    <visualProperties xmi:id="_K7IX0ZUfEe2jN8JM-i98Gw" position="694.0,237.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_K7IX0pUfEe2jN8JM-i98Gw" label="+"/>
+    <attributes xmi:id="_K7IX05UfEe2jN8JM-i98Gw" name="nomeSala">
+      <modelElement href="CineMille.uml#_GPM0N5UfEe2jN8JM-i98Gw"/>
+      <visibility xmi:id="_K7IX1JUfEe2jN8JM-i98Gw" label="+"/>
+      <cardinality xmi:id="_K7IX1ZUfEe2jN8JM-i98Gw" label="1" max="1" min="1"/>
+      <type xmi:id="_K7IX1pUfEe2jN8JM-i98Gw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_K7IX15UfEe2jN8JM-i98Gw" name="titolo">
+      <modelElement href="CineMille.uml#_GPNbQJUfEe2jN8JM-i98Gw"/>
+      <visibility xmi:id="_K7IX2JUfEe2jN8JM-i98Gw" label="+"/>
+      <cardinality xmi:id="_K7IX2ZUfEe2jN8JM-i98Gw" label="1" max="1" min="1"/>
+      <type xmi:id="_K7IX2pUfEe2jN8JM-i98Gw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_K7IX25UfEe2jN8JM-i98Gw" name="dataOrario">
+      <modelElement href="CineMille.uml#_GPNbQZUfEe2jN8JM-i98Gw"/>
+      <visibility xmi:id="_K7IX3JUfEe2jN8JM-i98Gw" label="+"/>
+      <cardinality xmi:id="_K7IX3ZUfEe2jN8JM-i98Gw" label="1" max="1" min="1"/>
+      <type xmi:id="_K7IX3pUfEe2jN8JM-i98Gw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_K7IX35UfEe2jN8JM-i98Gw" name="ProgrammazioneDto">
+      <modelElement href="CineMille.uml#_GPFfcJUfEe2jN8JM-i98Gw"/>
+      <keywords xmi:id="_K7IX4JUfEe2jN8JM-i98Gw" keyword="create"/>
+      <visibility xmi:id="_K7IX4ZUfEe2jN8JM-i98Gw" label="+"/>
+      <cardinality xmi:id="_K7IX4pUfEe2jN8JM-i98Gw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_K7IX45UfEe2jN8JM-i98Gw">
+        <modelElement href="CineMille.uml#_GPGGgJUfEe2jN8JM-i98Gw"/>
+        <type xmi:id="_K7IX5JUfEe2jN8JM-i98Gw" name="ProgrammazioneDto">
+          <modelElement href="CineMille.uml#_GL_vMJUfEe2jN8JM-i98Gw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_K7IX5ZUfEe2jN8JM-i98Gw" name="nomeSala">
+        <modelElement href="CineMille.uml#_GPFfcZUfEe2jN8JM-i98Gw"/>
+        <cardinality xmi:id="_K7IX5pUfEe2jN8JM-i98Gw" label="1" max="1" min="1"/>
+        <type xmi:id="_K7IX55UfEe2jN8JM-i98Gw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_K7IX6JUfEe2jN8JM-i98Gw" name="titolo">
+        <modelElement href="CineMille.uml#_GPFfcpUfEe2jN8JM-i98Gw"/>
+        <cardinality xmi:id="_K7IX6ZUfEe2jN8JM-i98Gw" label="1" max="1" min="1"/>
+        <type xmi:id="_K7IX6pUfEe2jN8JM-i98Gw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_K7IX65UfEe2jN8JM-i98Gw" name="dataOrario">
+        <modelElement href="CineMille.uml#_GPFfc5UfEe2jN8JM-i98Gw"/>
+        <cardinality xmi:id="_K7IX7JUfEe2jN8JM-i98Gw" label="1" max="1" min="1"/>
+        <type xmi:id="_K7IX7ZUfEe2jN8JM-i98Gw" name="Timestamp">
+          <modelElement href="CineMille.uml#_GOfCgJUfEe2jN8JM-i98Gw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_K71icJUfEe2jN8JM-i98Gw" using="_ay8voJUgEe2jN8JM-i98Gw" name="ProgrammazioneService" associationsIn="_K62rAJUfEe2jN8JM-i98Gw" associationsOut="_K7dH8JUfEe2jN8JM-i98Gw">
+    <modelElement href="CineMille.uml#_GMBkYJUfEe2jN8JM-i98Gw"/>
+    <visualProperties xmi:id="_K71icZUfEe2jN8JM-i98Gw" position="473.0,40.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_K71icpUfEe2jN8JM-i98Gw" name="LegacyStyledElement">
+      <modelElement href="CineMille.uml#_GMCLcpUfEe2jN8JM-i98Gw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_K71ic5UfEe2jN8JM-i98Gw" name="Annotations">
+      <modelElement href="CineMille.uml#_GMEAoJUfEe2jN8JM-i98Gw"/>
+    </stereotypes>
+    <visibility xmi:id="_K71idJUfEe2jN8JM-i98Gw" label="+"/>
+    <attributes xmi:id="_K71idZUfEe2jN8JM-i98Gw" name="programmazioneRepo">
+      <modelElement href="CineMille.uml#_GPNbQpUfEe2jN8JM-i98Gw"/>
+      <visibility xmi:id="_K71idpUfEe2jN8JM-i98Gw" label="-"/>
+      <cardinality xmi:id="_K71id5UfEe2jN8JM-i98Gw" label="1" max="1" min="1"/>
+      <type xmi:id="_K71ieJUfEe2jN8JM-i98Gw" name="ProgrammazioneRepository">
+        <modelElement href="CineMille.uml#_GL62sJUfEe2jN8JM-i98Gw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_K71ieZUfEe2jN8JM-i98Gw" name="storicoProgrammazione">
+      <modelElement href="CineMille.uml#_GMCLc5UfEe2jN8JM-i98Gw"/>
+      <stereotypes xmi:id="_K71iepUfEe2jN8JM-i98Gw" name="StyledElement">
+        <modelElement href="CineMille.uml#_GMCygpUfEe2jN8JM-i98Gw"/>
+      </stereotypes>
+      <visibility xmi:id="_K71ie5UfEe2jN8JM-i98Gw" label="+"/>
+      <cardinality xmi:id="_K71ifJUfEe2jN8JM-i98Gw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_K71ifZUfEe2jN8JM-i98Gw">
+        <modelElement href="CineMille.uml#_GMCygJUfEe2jN8JM-i98Gw"/>
+        <type xmi:id="_K71ifpUfEe2jN8JM-i98Gw" name="ProgrammazioneDto">
+          <modelElement href="CineMille.uml#_GL_vMJUfEe2jN8JM-i98Gw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_K71if5UfEe2jN8JM-i98Gw" name="findByDate">
+      <modelElement href="CineMille.uml#_GMDZkJUfEe2jN8JM-i98Gw"/>
+      <stereotypes xmi:id="_K71igJUfEe2jN8JM-i98Gw" name="StyledElement">
+        <modelElement href="CineMille.uml#_GMDZlZUfEe2jN8JM-i98Gw"/>
+      </stereotypes>
+      <visibility xmi:id="_K71igZUfEe2jN8JM-i98Gw" label="+"/>
+      <cardinality xmi:id="_K71igpUfEe2jN8JM-i98Gw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_K71ig5UfEe2jN8JM-i98Gw">
+        <modelElement href="CineMille.uml#_GMDZk5UfEe2jN8JM-i98Gw"/>
+        <type xmi:id="_K71ihJUfEe2jN8JM-i98Gw" name="ProgrammazioneDto">
+          <modelElement href="CineMille.uml#_GL_vMJUfEe2jN8JM-i98Gw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_K71ihZUfEe2jN8JM-i98Gw" name="dataInizio">
+        <modelElement href="CineMille.uml#_GMDZkZUfEe2jN8JM-i98Gw"/>
+        <cardinality xmi:id="_K71ihpUfEe2jN8JM-i98Gw" label="1" max="1" min="1"/>
+        <type xmi:id="_K71ih5UfEe2jN8JM-i98Gw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_K71iiJUfEe2jN8JM-i98Gw" name="dataFine">
+        <modelElement href="CineMille.uml#_GMDZkpUfEe2jN8JM-i98Gw"/>
+        <cardinality xmi:id="_K71iiZUfEe2jN8JM-i98Gw" label="1" max="1" min="1"/>
+        <type xmi:id="_K71iipUfEe2jN8JM-i98Gw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_K7oHF5UfEe2jN8JM-i98Gw" name="ProgrammazioneRepository" associationsIn="_K7dH8JUfEe2jN8JM-i98Gw">
+    <modelElement href="CineMille.uml#_GL62sJUfEe2jN8JM-i98Gw"/>
+    <visualProperties xmi:id="_K7oHGJUfEe2jN8JM-i98Gw" position="9.0,31.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_K7oHGZUfEe2jN8JM-i98Gw" name="LegacyStyledElement">
+      <modelElement href="CineMille.uml#_GL7dwJUfEe2jN8JM-i98Gw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_K7oHGpUfEe2jN8JM-i98Gw" name="Annotations">
+      <modelElement href="CineMille.uml#_GL_IIJUfEe2jN8JM-i98Gw"/>
+    </stereotypes>
+    <visibility xmi:id="_K7oHG5UfEe2jN8JM-i98Gw" label="+"/>
+    <operations xmi:id="_K7oHHJUfEe2jN8JM-i98Gw" name="storicoProgrammazione">
+      <modelElement href="CineMille.uml#_GL7dwZUfEe2jN8JM-i98Gw"/>
+      <stereotypes xmi:id="_K7oHHZUfEe2jN8JM-i98Gw" name="Annotations">
+        <modelElement href="CineMille.uml#_GL8r4JUfEe2jN8JM-i98Gw"/>
+      </stereotypes>
+      <visibility xmi:id="_K7oHHpUfEe2jN8JM-i98Gw" label="+"/>
+      <cardinality xmi:id="_K7oHH5UfEe2jN8JM-i98Gw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_K7oHIJUfEe2jN8JM-i98Gw">
+        <modelElement href="CineMille.uml#_GL8E0JUfEe2jN8JM-i98Gw"/>
+        <type xmi:id="_K7oHIZUfEe2jN8JM-i98Gw" name="Tuple">
+          <modelElement href="CineMille.uml#_GOUqcJUfEe2jN8JM-i98Gw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_K7oHIpUfEe2jN8JM-i98Gw" name="findByDate">
+      <modelElement href="CineMille.uml#_GL9S8JUfEe2jN8JM-i98Gw"/>
+      <stereotypes xmi:id="_K7oHI5UfEe2jN8JM-i98Gw" name="Annotations">
+        <modelElement href="CineMille.uml#_GL-hEJUfEe2jN8JM-i98Gw"/>
+      </stereotypes>
+      <visibility xmi:id="_K7oHJJUfEe2jN8JM-i98Gw" label="+"/>
+      <cardinality xmi:id="_K7oHJZUfEe2jN8JM-i98Gw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_K7oHJpUfEe2jN8JM-i98Gw">
+        <modelElement href="CineMille.uml#_GL96AZUfEe2jN8JM-i98Gw"/>
+        <type xmi:id="_K7oHJ5UfEe2jN8JM-i98Gw" name="Tuple">
+          <modelElement href="CineMille.uml#_GOUqcJUfEe2jN8JM-i98Gw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_K7oHKJUfEe2jN8JM-i98Gw" name="dataInizio">
+        <modelElement href="CineMille.uml#_GL9S8ZUfEe2jN8JM-i98Gw"/>
+        <cardinality xmi:id="_K7oHKZUfEe2jN8JM-i98Gw" label="1" max="1" min="1"/>
+        <type xmi:id="_K7oHKpUfEe2jN8JM-i98Gw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_K7oHK5UfEe2jN8JM-i98Gw" name="dataFine">
+        <modelElement href="CineMille.uml#_GL96AJUfEe2jN8JM-i98Gw"/>
+        <cardinality xmi:id="_K7oHLJUfEe2jN8JM-i98Gw" label="1" max="1" min="1"/>
+        <type xmi:id="_K7oHLZUfEe2jN8JM-i98Gw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
