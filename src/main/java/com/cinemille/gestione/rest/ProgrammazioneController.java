@@ -40,7 +40,7 @@ public class ProgrammazioneController {
 	}
 	/**
 	 * Servizio REST che restituisce la programmazione in un intervallo di tempo compreso tra <b>dataInizio</b> e <b>dataFine</b>.
-	 * <p><b>Esempio di richiesta dal client:</b> <br> <code><ul><li>dataInizio=2023/1/1&dataFine=2023/10/25</ul></li></code></p>
+	 * <p><b>Esempio di richiesta dal client:</b></p> <ul><li><code>dataInizio=2023/1/1&dataFine=2023/10/25</code></li></ul>
 	 * @param dataInizio la data iniziale in String nel formato YYYY/MM/DD
 	 * @param dataFine la data finale in String nel formato YYYY/MM/DD
 	 * @return una List di {@link ProgrammazioneDto}.

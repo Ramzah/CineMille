@@ -1,0 +1,6 @@
+com.cinemille.gestione
+com.cinemille.gestione.dto
+com.cinemille.gestione.model
+com.cinemille.gestione.repository
+com.cinemille.gestione.rest
+com.cinemille.gestione.service

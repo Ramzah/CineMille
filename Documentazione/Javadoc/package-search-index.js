@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.cinemille.gestione.dto"},{"l":"com.cinemille.gestione.model"},{"l":"com.cinemille.gestione.repository"},{"l":"com.cinemille.gestione.rest"},{"l":"com.cinemille.gestione.service"}];updateSearchResults();
