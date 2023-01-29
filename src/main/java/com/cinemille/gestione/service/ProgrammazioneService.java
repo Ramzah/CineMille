@@ -3,13 +3,17 @@ package com.cinemille.gestione.service;
 import java.sql.Timestamp;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.cinemille.gestione.dto.ProgrammazioneDto;
+import com.cinemille.gestione.model.Programmazione;
 import com.cinemille.gestione.repository.ProgrammazioneRepository;
 import com.cinemille.gestione.rest.ProgrammazioneController;
 
@@ -29,6 +33,7 @@ public class ProgrammazioneService {
 	 */
 	@Autowired
 	private ProgrammazioneRepository programmazioneRepo;
+	
 	/**
 	 * Metodo che effettua la richiesta a {@link #programmazioneRepo} per lo storico della programmazione.
 	 * <p>Converte la List di Tuple ricevuta in una List di {@link ProgrammazioneDto}.</p>
@@ -37,11 +42,18 @@ public class ProgrammazioneService {
 	 * @see #findByDate
 	 */
 	public List<ProgrammazioneDto> storicoProgrammazione() {
-		List<Tuple> storico = programmazioneRepo.storicoProgrammazione();
-		// Conversione da Tuple a ProgrammazioneDto
-		List<ProgrammazioneDto> dto = storico.stream().map(t -> new ProgrammazioneDto(t.get(0, String.class), t.get(1, String.class), t.get(2, Timestamp.class))).collect(Collectors.toList());
-		return (List<ProgrammazioneDto>) dto;
+		List<Programmazione> storico = programmazioneRepo.findAll();
+		List<ProgrammazioneDto> listaFilm = new ArrayList<ProgrammazioneDto>();
+		Set<String> listaTitoli = new HashSet<String>();
+		storico.forEach(p -> {
+			if (!listaTitoli.contains(p.getFilm().getTitolo())) {
+				listaTitoli.add(p.getFilm().getTitolo());
+				listaFilm.add(new ProgrammazioneDto(p.getIdSala().getNomeSala(), p.getFilm().getTitolo(), p.getDataOrario()));
+			}
+		});
+		return listaFilm;
 	}
+	
 	/**
 	 * Metodo che effettua la richiesta a {@link #programmazioneRepo} per la programmazione in un intervallo di date.
 	 * <p>L'intervallo di tempo è identificato tra <b>dataInizio</b> e <b>dataFine</b> e nel caso fossero null viene usata come dataInizio la data odierna e dataFine la settimana successiva.</p>

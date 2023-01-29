@@ -1,11 +1,15 @@
 package com.cinemille.gestione.model;
 
 import java.io.Serializable;
-import java.util.Date;
+import java.sql.Timestamp;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
 
 @Entity
 public class Programmazione implements Serializable {
@@ -13,13 +17,16 @@ public class Programmazione implements Serializable {
 	private static final long serialVersionUID = 1L;
 	
 	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
-	@Column(name = "id_sala")
-	private String idSala;
-	@Column(name = "id_film")
-	private String idFilm;
+	@ManyToOne
+	@JoinColumn(name = "id_sala")
+	private Sala sala;
+	@ManyToOne
+	@JoinColumn(name = "id_film")
+	private Film film;
 	@Column(name = "data_orario")
-	private Date dataOrario;
+	private Timestamp dataOrario;
 
 	public Programmazione() {
 	}
@@ -28,15 +35,15 @@ public class Programmazione implements Serializable {
 		return id;
 	}
 
-	public String getIdSala() {
-		return idSala;
+	public Sala getIdSala() {
+		return sala;
 	}
 
-	public String getIdFilm() {
-		return idFilm;
+	public Film getFilm() {
+		return film;
 	}
 
-	public Date getDataOrario() {
+	public Timestamp getDataOrario() {
 		return dataOrario;
 	}
 	

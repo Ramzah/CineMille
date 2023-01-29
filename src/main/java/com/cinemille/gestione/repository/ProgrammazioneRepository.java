@@ -6,8 +6,8 @@ import jakarta.persistence.Tuple;
 
 import java.util.List;
 
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
-import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 /**
@@ -16,18 +16,7 @@ import org.springframework.stereotype.Repository;
  * @see ProgrammazioneRepository#findByDate(String, String) findByDate
  */
 @Repository
-public interface ProgrammazioneRepository extends CrudRepository<Programmazione, Integer>{
-
-	/**
-	 * Effettua una query per recuperare i titoli, i nomi delle sale e le date/orari di programmazione 
-	 * @return una List di Tuple contenenti il risultato della query
-	 * @see ProgrammazioneRepository
-	 * @see ProgrammazioneRepository#findByDate(String, String) findByDate
-	 */
-	@Query(value = "SELECT sale.nome_sala, film.titolo, programmazione.data_orario FROM programmazione "
-			+ "INNER JOIN film ON programmazione.id_film = film.id "
-			+ "INNER JOIN sale ON programmazione.id_sala = sale.id;", nativeQuery = true)
-	public List<Tuple> storicoProgrammazione();
+public interface ProgrammazioneRepository extends JpaRepository<Programmazione, Integer> {
 	
 	/**
 	 * Effettua una query per recuperare i titoli, i nomi delle sale e le date/orari di programmazione in un intervallo di tempo specifico
