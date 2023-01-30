@@ -64,13 +64,13 @@ public class ProgrammazioneService {
 	 * @see #storicoProgrammazione
 	 */
 	public List<ProgrammazioneDto> findByDate(String dataInizio, String dataFine) {
-		SimpleDateFormat dataFormat = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss.SSS");
+		SimpleDateFormat dataFormat = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
 		Date dataInizioFormattata = null;
 		Date dataFineFormattata = null;
 		Timestamp timestampDataInizio = null;
 		Timestamp timestampDataFine = null;
 		Calendar calendario = Calendar.getInstance();
-		// Proviamo prima a formattare con l'orario
+		// Proviamo prima a formattare con l'orario preciso (ore, minuti e secondi)
 		try {
 			dataInizioFormattata = dataFormat.parse(dataInizio);
 			dataFineFormattata = dataFormat.parse(dataFine);
